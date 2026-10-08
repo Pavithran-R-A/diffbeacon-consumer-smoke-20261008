@@ -1,0 +1,14 @@
+name: DiffBeacon review
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  attention:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: Pavithran-R-A/DiffBeacon@a89d8bb7d048bfd4e016e494428d04f060e82112
