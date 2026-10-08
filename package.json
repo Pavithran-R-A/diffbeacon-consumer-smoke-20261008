@@ -1,5 +1,8 @@
 {
   "name": "diffbeacon-consumer-smoke-20261008",
   "version": "0.0.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "synthetic-left-pad": "1.0.0"
+  }
 }

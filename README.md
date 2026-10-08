@@ -3,3 +3,7 @@
 Synthetic probe repository. Its only purpose is to act as a *consumer* of the DiffBeacon GitHub
 Action from outside the DiffBeacon repository. The source files below are invented placeholders;
 they compile to nothing and run nothing.
+
+## Changed in this branch
+
+`login` now returns a session object, and a renewal path was added alongside it.
